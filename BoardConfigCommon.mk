@@ -29,8 +29,6 @@ BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 # Graphics
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
-# Qualcomm support
-BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += device/samsung/qcom-common
